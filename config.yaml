@@ -1,0 +1,10 @@
+video:
+  out: "data/video/output.mp4"
+  fps: 60
+  width: 1920
+  height: 1080
+  exposure: 40000
+  gain: 1.5
+  auto_exposure: 'Continuous'
+  contrast_mode: 'Linear'
+  contrast: 0.05

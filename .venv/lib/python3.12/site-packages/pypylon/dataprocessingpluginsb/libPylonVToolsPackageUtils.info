@@ -1,0 +1,129 @@
+{
+    "BPVLVersion": 20000,
+    "Copyright": "Copyright (c) 2022-2024 Basler AG",
+    "FirmCode": "Invalid",
+    "InfoFileVersion": 20000,
+    "InfoSignature": "1257ee04c027c6bdd9da8e4353312fb8eb8ff38cb965abbac62570ac253805d5b9fcb47db54ab716e125f588b41dcdb095ca1ff6db84b0aa1d995ba9fd6b63acad63a2eab1a9a2593ab218137014d9d60ae0c667c1894f75440a615f0da203ffa8dafb848691b053703eaa4b80d90da558c6a0c152dea7103318509f7c2593f89faf69a2f98680ca1fd562270898aae2ef06413d59977d8377589ea76fbdd478081cc65f791c2cee8ab2e829c51695eb71f87f9d47e0d98ca8c8a4c7e65db264b0b357e42f4ecddd50fe703ad83f9b67f45dca9753d86a72b907bce2c74aeee8264e6d0e4c2aa6cb4f88e94eb5f20cb6caa1c3821f09e00f2f9871cdc057c7e78321c0621e0bb980e6ee8b491af4e3f9364a08da69bc1e5443f20be84cd6ae57d11d3623b5095970f0f7671e14eb617d658eed8243dfe10d85e70fb163d38904129fa4a09b3b4c759e56f5ee732cce2872381c828a56d26c4267337eb7443e20c6ac13db4270ef2b1ce8030ce40ecec3da5620fda29ce30f11e4a65ea0c8437d62008a500b8f766a16e830d1857c72367de3d73bc8cd0ddbb4019d2964be7679ba435d3ce67603274607c229e3ed66c5d20b24911aadef111772b7fa85452adb5e4db14abb3caa36b44adb011d19c644569418af3f91c5211100b19a021dbdfaf421d0de12501888ec55b441f0c171d14cbb8c36ff6cbd2fabce0bd8f8aa213b",
+    "LibraryPublicKey": "30820222300d06092a864886f70d01010105000382020f003082020a0282020100b9eedcfffec2ddc12dd8d6aeaf995f9cdeecad0e4f8ab689c9175a4896a627961b30c9307a42a345519a4fd63f01b9851a2ec43aadfda675c36abecf214b6da9a6876cc97c0656191128e56aae3d5d21613aad4b14a31fca16aef7e9923a634d7b7738b959162bafd450948c5aea4ccc0f2ec63ab431232cd5843104e08956f678e770acc73eb41c19cc609feaa566180a6f9e4b23c51c0911b4e8f686109b4b41b49d7bf32e5a8e401e1a9f65389fc4620736525812e2d3549e84bcb2876943435add1379aa0c109645c3f8770440a0fa8ece64fa930e140317e5b51df1c5e2cfc9581c0c34fca20c2102d3192b9d84f4102f8b819a0ec6e4f1d284016c0b6e879d1c814f9e1b823099e5be14d90f728c79f13dece7db78088106c557970cdb6107db3babc8e650789a6e6e127d8e314ec70d08e3e5b3504793b3b1037114b1db9aeb3f7a754d206b130d59a4652d2649f247a1cb3e8ac36501505d192698f8220ee1ad20ae70b9ae58bb7e6049c49be75a32c737cb00ce012be4845f7426469ef1d41116f2c0bcb0736451335200885790e59de7f5bf0747c4f94ecc6053ae9e12faa6468dc31cc666f2f0ecdd3d4316783aaf9af4b1ba10f0c16878b765a46e3f7172f3adb821fd125ece15f518a99a0bb6b7217133ca46702a613ddf19326bbb600338d1bbfe3b65df93f7c4d659f031954802f84a26122517fc8b73f79b0203010001",
+    "LibrarySignature": "9011a002d31c1d601641700a1201158117c866ad0587dfb25be083ae027d823247a00f9c3a7fb097a4a96bbc0c4a43c6e47c7e4890fb687dacb856aec90659fbe80641389aa381199efddecd950e02f3206dc258ba08c8c06a7aab8030c3f1d2102743b420c543b51170ceedfbc5d79fd990d8b058ff67e1ffdf04c29f96988f77ccb2121c4040c915a3a3d6aa550e97d354c13af6abb067b23eaad8c047f0fbb68cdb6479cc51b601d1e70872005a27e95a95833b68c6d15b3ef2ea425cc797f935fd88b6c7e193af3f887a5126a31cef11d16cdad12d4502be2122a3dd294789690b2caa7deb243dca9f94a88540779b538f26230037899ee57fb6058355384e935b3f330d0dee18cf158351743c6ca5614a37ac2430d6b32c896eb1708562254163f50f1e19a182d45a22885aeeb9923d27aa7e8b34f0581cda559ee89d9f052e6a95af58c675f08526b19ff2db8879fc53be78e00efabffb4b7f0e306ecebba26b285c1548e9b08b4fe08b0f744871bc9f5185f275ff89176cb2e3484b83eb7a86043ecc2d2dc80a01368806dc257f8ff9c60fede814eee6d93031fc335c3241f75197bfadc0fbf64e516da26ed73dfd177162309cd80d049276c2b2166bad0d8a985440bb9166f255453c17e2b0070c521a5312c28f538dcc8a6c2d438d00ece38137b65885d89725ae769f05db48077a3ceb1233439beaaa8543c0d0cd",
+    "License": "Basler AG internal use only!",
+    "Modules": [
+        {
+            "DetailedDescription": "<!--\n  ~ //-----------------------------------------------------------------------------\n  ~ //  Copyright (c) 2024 Basler AG\n  ~ //  Author: LR\n  ~ //-----------------------------------------------------------------------------\n  -->\n\n<h2><strong>Image Transformer</strong></h2>\n\n<p>The Image Transformer vTool allows you to modify the size and appearance of images using operations like translation,\n    rotation, scaling, and resizing.\n</p>\n<p>\n    There are two transformation input modes:\n<ul>\n    <li><strong>Parameter:</strong> This allows you to specify the transformation values individually using the\n        parameters available, e.g., horizontal and vertical translation, rotation around the center or the origin, and\n        horizontal and vertical scaling.\n    </li>\n    <li><strong>Matrix:</strong> This allows you to edit the transformation matrix directly, e.g., if the transformation\n        matrix is known upfront or the values come from another source.\n    </li>\n</ul>\nTransforming the image may cause parts of the image to leave the original image area. For example, if you're rotating an image, its corners may be cut off. To prevent this, there is the Image Resize Mode which allows you to specify whether you want to preserve the original size of the image, which would mean losing image content, or to resize it, either manually or automatically.\n<p><br></p>\n<h3>\n    <strong>Inputs</strong>\n</h3>\n<p>\n    <strong>Image:</strong> Accepts images directly from a Camera vTool or any other vTool that outputs images.\n</p>\n\n<p><br></p>\n<h3>\n    <strong>Outputs</strong>\n</h3>\n<p>\n    <strong>Image:</strong> Returns the transformed image with the same data type as the input image.\n</p>\n<p><br></p>\n<h3>\n    <strong>Configuring the vTool</strong>\n</h3>\n<p>\n    You can configure the vTool via the pylon API and the <strong>Features - All</strong> pane of the pylon Viewer.\n    All parameters listed there can be set via the pylon API. To study the effects of a parameter, change the parameter\n    values in the <strong>Features - All</strong> pane and watch the results in a pin data view when running the recipe.\n    For more details about parameters, select a parameter and check the <strong>Feature Documentation</strong> pane.\n</p>\n\n<p><br></p>\n<p>\n    <a href=\"pylonVToolImageTransformer\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Get help</u></a>\n</p>",
+            "DisplayName": "Image Transformer",
+            "MinRequiredFileVersion": "1.0.0",
+            "MinRequiredSoftwareVersion": "1.0.0",
+            "Name": "ImageTransformer",
+            "ObjectVersion": "1.0.0",
+            "ProductCodeDemo": "Invalid",
+            "ProductCodeEval": "Invalid",
+            "ProductCodeFull": "Invalid",
+            "ShortDescription": "Manipulate Image",
+            "SupportedUuids": [
+                "849dd35b-7dc0-4563-9290-3f0f4dd21834"
+            ],
+            "Tags": [
+                "UseCaseIdentifier=Supporters",
+                "LicenseGroup=Free",
+                "OperationLevelGroup=Low",
+                "AlgorithmTypeGroup=Classical"
+            ],
+            "Type": "VTool",
+            "Uuid": "849dd35b-7dc0-4563-9290-3f0f4dd21834"
+        },
+        {
+            "DetailedDescription": "<!--\n  ~ //-----------------------------------------------------------------------------\n  ~ //  Copyright (c) 2024 Basler AG\n  ~ //  Author: LR\n  ~ //-----------------------------------------------------------------------------\n  -->\n\n<h2><strong>Region Combiner</strong></h2>\n\n<p>The Region Combiner vTool allows you to combine two regions using logical operations.\n</p>\n<p>\n  The vTool offers the following operations:\n<ul>\n  <li><strong>AND:</strong> Regions are combined using an AND operation, i.e., creating a union of both regions.</li>\n  <li><strong>OR:</strong> Regions are combined using an OR operation, i.e., creating an intersection of both regions.</li>\n  <li><strong>XOR:</strong> Regions are combined using an XOR operation, i.e., creating the symmetric difference of both regions.</li>\n</ul>\n<p><br></p>\n<h3>\n  <strong>Inputs</strong>\n</h3>\n<p>\n  <strong>Region1:</strong> Accepts a region from all vTools that produce a region as an output, e.g., Thresholding vTools or Matching vTools.\n</p>\n<p>\n  <strong>Region2:</strong> Accepts a region from all vTools that produce a region as an output, e.g., Thresholding vTools or Matching vTools.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Outputs</strong>\n</h3>\n<p>\n  <strong>Region:</strong> Returns the combined region of both input regions.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Configuring the vTool</strong>\n</h3>\n<p>\n  You can also configure the vTool via the pylon API and the <strong>Features - All</strong> pane of the pylon Viewer.\n  All parameters listed there can be set via the pylon API. To study the effects of a parameter, change the parameter\n  values in the <strong>Features - All</strong> pane and watch the results in a pin data view when running the recipe.\n  For more details about parameters, select a parameter and check the <strong>Feature Documentation</strong> pane.\n</p>\n\n<p><br></p>\n<p>\n  <a href=\"pylonVToolRegionCombiner\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Get help</u></a>\n</p>",
+            "DisplayName": "Region Combiner",
+            "MinRequiredFileVersion": "1.0.0",
+            "MinRequiredSoftwareVersion": "1.0.0",
+            "Name": "RegionCombiner",
+            "ObjectVersion": "1.0.0",
+            "ProductCodeDemo": "Invalid",
+            "ProductCodeEval": "Invalid",
+            "ProductCodeFull": "Invalid",
+            "ShortDescription": "Utils RegionCombiner",
+            "SupportedUuids": [
+                "722D1C24-9427-4700-B428-5709057819B1"
+            ],
+            "Tags": [
+                "UseCaseIdentifier=Supporters",
+                "LicenseGroup=Free",
+                "OperationLevelGroup=Low",
+                "AlgorithmTypeGroup=Classical"
+            ],
+            "Type": "VTool",
+            "Uuid": "722D1C24-9427-4700-B428-5709057819B1"
+        },
+        {
+            "DetailedDescription": "<!--\n  ~ //-----------------------------------------------------------------------------\n  ~ //  Copyright (c) 2024 Basler AG\n  ~ //  Author: LR\n  ~ //-----------------------------------------------------------------------------\n  -->\n\n<h2><strong>Image Stitcher</strong></h2>\n\n<p>The Image Stitcher vTool allows you to stitch two images together to create a larger image.\n</p>\n<p>\n  You can stitch images horizontally or vertically. You can also specify horizontal and vertical offsets to create image-in-image effects or arrange the images diagonally. The image at the <strong>Image2</strong> input appears in front of the other image in case of overlap. The offsets also only apply to image 2. The input images must have the same pixel format.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Inputs</strong>\n</h3>\n<p>\n  <strong>Image1:</strong> Accepts images directly from a Camera vTool or any other vTool that outputs images.\n</p>\n<p>\n  <strong>Image2:</strong> Accepts images directly from a Camera vTool or any other vTool that outputs images.\n  </p>\n\n<p><br></p>\n<h3>\n  <strong>Outputs</strong>\n</h3>\n<p>\n  <strong>Image:</strong> Returns the combined image in the same pixel format but with larger dimensions than the input images.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Configuring the vTool</strong>\n</h3>\n<p>\n  You can configure the vTool via the pylon API and the <strong>Features - All</strong> pane of the pylon Viewer.\n  All parameters listed there can be set via the pylon API. To study the effects of a parameter, change the parameter\n  values in the <strong>Features - All</strong> pane and watch the results in a pin data view when running the recipe.\n  For more details about parameters, select a parameter and check the <strong>Feature Documentation</strong> pane.\n</p>\n\n<p><br></p>\n<p>\n  <a href=\"pylonVToolImageStitcher\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Get help</u></a>\n</p>",
+            "DisplayName": "Image Stitcher",
+            "MinRequiredFileVersion": "1.0.0",
+            "MinRequiredSoftwareVersion": "1.0.0",
+            "Name": "ImageStitcher",
+            "ObjectVersion": "1.0.0",
+            "ProductCodeDemo": "Invalid",
+            "ProductCodeEval": "Invalid",
+            "ProductCodeFull": "Invalid",
+            "ShortDescription": "Stitch two Images",
+            "SupportedUuids": [
+                "8548135D-D483-4F8D-8207-6D6EEC8DA8CE"
+            ],
+            "Tags": [
+                "UseCaseIdentifier=Supporters",
+                "LicenseGroup=Free",
+                "OperationLevelGroup=Low",
+                "AlgorithmTypeGroup=Classical"
+            ],
+            "Type": "VTool",
+            "Uuid": "8548135D-D483-4F8D-8207-6D6EEC8DA8CE"
+        },
+        {
+            "DetailedDescription": "<!--\n  ~ //-----------------------------------------------------------------------------\n  ~ //  Copyright (c) 2024 Basler AG\n  ~ //  Author: LR\n  ~ //-----------------------------------------------------------------------------\n  -->\n\n<h2><strong>Image Cropper</strong></h2>\n\n<p>The Image Cropper vTool allows you to crop images to make them smaller.\n</p>\n<p>\n  By making an image smaller, you also reduce the size of the image that subsequent vTools work with. This may reduce processing time and may also help to avoid incorrect results because irrelevant information is removed. You can specify the size of the resulting image manually. Alternatively, you can use the rectangle output from the Rectangle Measurements Pro vTool as input for the <strong>CropArea</strong> pin to define the resulting image.\n</p>\n<p>\n  <strong>Note:</strong> The Image Cropper changes the actual image size and therefore also changes the image's coordinate system. This means that you can't return to the original image. If you want to preserve the original image for later use, consider using the ROI Creator vTool. Using the ROI Creator, you can perform operations on just a portion of the original image without losing the original.\n<p><br></p>\n<h3>\n  <strong>Inputs</strong>\n</h3>\n<p>\n  <strong>Image:</strong> Accepts images directly from a Camera vTool or any other vTool that outputs images.\n</p>\n<p>\n  <strong>CropArea:</strong> Accepts a crop area from the Rectangle Measurements Pro vTool.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Outputs</strong>\n</h3>\n<p>\n  <strong>Image:</strong> Returns the cropped image with the same data type as the input image.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Configuring the vTool</strong>\n</h3>\n<p>\n  You can configure the vTool via the pylon API and the <strong>Features - All</strong> pane of the pylon Viewer.\n  All parameters listed there can be set via the pylon API. To study the effects of a parameter, change the parameter\n  values in the <strong>Features - All</strong> pane and watch the results in a pin data view when running the recipe.\n  For more details about parameters, select a parameter and check the <strong>Feature Documentation</strong> pane.\n</p>\n\n<p><br></p>\n<p>\n  <a href=\"pylonVToolImageCropper\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Get help</u></a>\n</p>",
+            "DisplayName": "Image Cropper",
+            "MinRequiredFileVersion": "2.0.0",
+            "MinRequiredSoftwareVersion": "2.0.0",
+            "Name": "ImageCropper",
+            "ObjectVersion": "2.0.0",
+            "ProductCodeDemo": "Invalid",
+            "ProductCodeEval": "Invalid",
+            "ProductCodeFull": "Invalid",
+            "ShortDescription": "Crop Image",
+            "SupportedUuids": [
+                "1DDF3D57-1C2E-4A67-83F0-FDD2C71C77CA"
+            ],
+            "Tags": [
+                "UseCaseIdentifier=Supporters",
+                "LicenseGroup=Free",
+                "OperationLevelGroup=Low",
+                "AlgorithmTypeGroup=Classical"
+            ],
+            "Type": "VTool",
+            "Uuid": "1DDF3D57-1C2E-4A67-83F0-FDD2C71C77CA"
+        },
+        {
+            "DetailedDescription": "<!--\n  ~ //-----------------------------------------------------------------------------\n  ~ //  Copyright (c) 2024 Basler AG\n  ~ //  Author: LR\n  ~ //-----------------------------------------------------------------------------\n  -->\n\n<h2><strong>Data Synchronizer</strong></h2>\n\n<p>The Data Synchronizer vTool allows you to synchronize multiple data inputs. The data types of the inputs don't have to be identical. You can add as many input pins as you like by connecting an output pin of another vTool to an input pin of the Data Synchronizer. For each input pin, a corresponding output pin is created.\n</p>\n<p>\n  Two synchronization modes are available:\n<ul>\n  <li><strong>Leader-Follower:</strong> The frequency of the first input determines the frequency of the data output. If the frequency at input Data1 is higher than at input DataN, the DataN input data is duplicated. If the frequency at DataN input is higher than at Data1 input, data from DataN input is discarded.</li>\n  <li><strong>No Data Loss:</strong> All updates from any input trigger a synchronized output. In this mode, no data is lost.</li>\n</ul>\n</p>\n<p><br></p>\n<h3>\n  <strong>Inputs</strong>\n</h3>\n<p>\n  <strong>Data1:</strong> Accepts input of any data type.\n</p>\n<p>\n  <strong>DataN:</strong> Accepts input of any data type.\n</p>\n\n<p><br></p>\n<h3>\n  <strong>Outputs</strong>\n</h3>\n<p>\n  <strong>DataN:</strong> Returns the synchronized data inputs according to the mode specified.\n</p>\n\n\n<p><br></p>\n<h3>\n  <strong>Configuring the vTool</strong>\n</h3>\n<p>\n  You can configure the vTool via the pylon API and the <strong>Features - All</strong> pane of the pylon Viewer.\n  All parameters listed there can be set via the pylon API. To study the effects of a parameter, change the parameter\n  values in the <strong>Features - All</strong> pane and watch the results in a pin data view when running the recipe.\n  For more details about parameters, select a parameter and check the <strong>Feature Documentation</strong> pane.\n</p>\n\n<p><br></p>\n<p>\n  <a href=\"pylonVToolDataSynchronizer\" rel=\"noopener noreferrer\" target=\"_blank\"><u>Get help</u></a>\n</p>",
+            "DisplayName": "Data Synchronizer",
+            "MinRequiredFileVersion": "1.0.0",
+            "MinRequiredSoftwareVersion": "1.0.0",
+            "Name": "DataSynchronizer",
+            "ObjectVersion": "1.0.0",
+            "ProductCodeDemo": "Invalid",
+            "ProductCodeEval": "Invalid",
+            "ProductCodeFull": "Invalid",
+            "ShortDescription": "Synchronize Inputs",
+            "SupportedUuids": [
+                "d9a6f99a-eaf5-4726-badf-88bc9ca81166"
+            ],
+            "Tags": [
+                "UseCaseIdentifier=DataManagement",
+                "LicenseGroup=Free",
+                "OperationLevelGroup=Low",
+                "AlgorithmTypeGroup=Classical"
+            ],
+            "Type": "VTool",
+            "Uuid": "d9a6f99a-eaf5-4726-badf-88bc9ca81166"
+        }
+    ],
+    "Vendor": "Basler AG",
+    "Version": "2.0.1"
+}
