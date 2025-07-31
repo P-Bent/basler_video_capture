@@ -19,7 +19,7 @@ def build_camera(autoexposure,contrast_mode,contrast,exposure,gain,width,height,
     )
     return cam
 
-def set_up_writer(cam:Camera, output_path):
+def set_up_writer(cam:Camera, output_path,target_fps):
 
     print(f"ACTUAL CAMERA FRAMERATE {cam.get_frame_rate()}")
     print(f"INTERNAL TEMPERATURE {cam.get_temperature()}")
@@ -29,7 +29,9 @@ def set_up_writer(cam:Camera, output_path):
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     print(output_path)
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    writer = cv2.VideoWriter(output_path, fourcc, cam.get_frame_rate(), (width, height), True)
+    writer = cv2.VideoWriter(
+        str(output_path), fourcc, target_fps, (width, height), True
+    )
     if not writer.isOpened():
         raise RuntimeError(f"VideoWriter could not be opened: {output_path}")
 

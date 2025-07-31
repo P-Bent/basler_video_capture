@@ -42,8 +42,8 @@ if __name__ == "__main__":
                 .set_frame_rate(fps)
             )
 
-            output_path = (Path(video_cfg["output_dir"]) / f"basler_{datetime.now().strftime(video_cfg["format"])}.mp4")
-            writer = set_up_writer(cam, output_path)
+            output_path = (Path(video_cfg["output_dir"]) / f"basler_{datetime.now().strftime(video_cfg['format'])}.mp4")
+            writer = set_up_writer(cam, output_path,fps)
             output = record_video(cam, segment_duration, writer)
             print(f"Video saved to: {output_path}")
 
